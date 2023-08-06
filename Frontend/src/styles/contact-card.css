@@ -1,0 +1,43 @@
+/* styles.css */
+
+.card-item {
+    background-color: #ca96da;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .card-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-header {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .card-header h3 {
+    margin: 0;
+  }
+  
+  .card-body {
+    padding-top: 10px;
+  }
+  
+  .card-body > div {
+    margin-bottom: 5px;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .flex-column {
+    flex-direction: column;
+  }
+  
+  /* Add other styles as needed for the card item */
+  
